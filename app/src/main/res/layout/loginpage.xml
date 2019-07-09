@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="@null"
-    tools:context=".Activities.MainActivity">
+    tools:context=".Activities.LoginPage">
 
     <com.swish.cabinmain.UtilsView.GifImageView
         android:id="@+id/gif"

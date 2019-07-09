@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
+import com.swish.cabinmain.Activities.LoginPage;
 import com.swish.cabinmain.R;
 import com.swish.cabinmain.UtilsView.GifImageView;
 
@@ -16,7 +17,7 @@ public class LoginCustomPagerAdapter extends PagerAdapter {
     LayoutInflater layoutInflater;
 
 
-    public LoginCustomPagerAdapter(Context context, int images[]) {
+    public LoginCustomPagerAdapter(LoginPage context, int[] images) {
         this.context = context;
         this.images = images;
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);

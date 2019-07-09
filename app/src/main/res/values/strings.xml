@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CabInMain</string>
+    <string name="title_activity_phone_page">PhonePage</string>
+    <string name="title_activity_registration_screen">RegistrationScreen</string>
 </resources>
