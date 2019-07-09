@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/book_a_ride"
+            android:icon="@drawable/book_a_ride"
+            android:title="@string/nav_book_a_ride"/>
+
+        <item
+            android:id="@+id/my_rides"
+            android:icon="@drawable/my_rides"
+            android:title="@string/nav_my_rides" />
+        <item
+            android:id="@+id/route"
+            android:icon="@drawable/route"
+            android:title="@string/nav_routes" />
+        <item
+            android:id="@+id/suggestroute"
+            android:icon="@drawable/suggest_new_routes"
+            android:title="@string/nav_suggest_newroute" />
+
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/payments"
+            android:title="@string/nav_payments" />
+
+        <item
+            android:id="@+id/passes"
+            android:icon="@drawable/passes"
+            android:title="@string/nav_passes" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share_earn"
+            android:title="@string/nav_share_earn"/>
+
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/notifications"
+            android:title="@string/nav_notifications"/>
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback"
+            android:title="@string/nav_feedback"/>
+
+        <item
+            android:id="@+id/more"
+            android:icon="@drawable/more"
+            android:title="@string/nav_more"/>
+    </group>
+
+</menu>

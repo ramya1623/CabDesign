@@ -1,5 +1,6 @@
 package com.swish.cabinmain.Activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -123,14 +124,16 @@ public class RegistrationScreen extends AppCompatActivity {
                     transaction.commit();
                 }
                 else {
-                    Toast.makeText(RegistrationScreen.this, "This is my Toast message!",
-                            Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(RegistrationScreen.this, NavigationDrawerActivity.class);
+                        startActivity(intent);
                 }
 
             }
         });
 
         }
+
+
 
 }
 
